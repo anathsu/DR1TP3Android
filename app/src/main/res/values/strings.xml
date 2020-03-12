@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name"></string>
+    <string name="home">HOME</string>
     <string name="info">INFORMAÇÃO</string>
     <string name="list">LISTAGEM</string>
+    <string name="text1Home">Lorem Ipsum is simply dummy text of the\n printing and typesetting industry.</string>
+    <string name="text2Home">Lorem Ipsum is simply dummy text of the\n printing and typesetting industry.</string>
     <string name="informacao">Endereço na nossa empresa:\nRua São José, 90</string>
 
     <!-- TODO: Remove or change this placeholder text -->
