@@ -30,16 +30,17 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
             // selecionou item com ID "info_item"
-            R.id.info_item -> Toast.makeText( this ,
-                R.string.informacao,
-                Toast.LENGTH_SHORT).show()
+            R.id.info_item -> {
+                findNavController(R.id.nav_fragment)
+                    .navigate(R.id.infoFragment)
+            }
             R.id.home_item -> {
                 nav_fragment.findNavController()
                     .navigate(R.id.homeFragment)
             }
-            R.id.nav_item -> {
+            R.id.list_item -> {
                 findNavController(R.id.nav_fragment)
-                    .navigate(R.id.dateFragment)
+                    .navigate(R.id.listFragment)
             }
         }
         return true

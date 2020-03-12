@@ -9,18 +9,15 @@
         android:id="@+id/homeFragment"
         android:name="com.example.menu.fragment.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment_to_dateFragment"
-            app:destination="@id/dateFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_home" />
     <fragment
-        android:id="@+id/dateFragment"
-        android:name="com.example.menu.fragment.DateFragment"
-        android:label="fragment_date"
-        tools:layout="@layout/fragment_date" >
-        <action
-            android:id="@+id/action_dateFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
-    </fragment>
+        android:id="@+id/infoFragment"
+        android:name="com.example.menu.fragment.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.menu.fragment.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
 </navigation>
