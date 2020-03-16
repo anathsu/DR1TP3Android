@@ -2,13 +2,11 @@ package com.example.menu
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
-import android.widget.Toast
-import androidx.navigation.Navigation.findNavController
+import android.view.*
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.fragment_home.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         //Add a toolbar como ActionBar no app
         setSupportActionBar(toolbarSuperior)
 
-
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.options_menu, menu)
@@ -29,6 +27,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
+
             // selecionou item com ID "info_item"
             R.id.info_item -> {
                 findNavController(R.id.nav_fragment)

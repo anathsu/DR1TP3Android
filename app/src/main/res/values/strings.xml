@@ -5,7 +5,7 @@
     <string name="list">LISTAGEM</string>
     <string name="text1Home">Lorem Ipsum is simply dummy text of the\n printing and typesetting industry.</string>
     <string name="text2Home">Lorem Ipsum is simply dummy text of the\n printing and typesetting industry.</string>
-    <string name="informacao">Endereço na nossa empresa:\nRua São José, 90</string>
+    <string name="informacao">Endereço na nossa empresa:\nRua São José, 90\nCentro, Rio de Janeiro\nCEP: 20010-901\nTelefone:(21)9999-9999</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

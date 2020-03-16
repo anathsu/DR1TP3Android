@@ -23,6 +23,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.100000024" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="237dp"
+            android:layout_height="165dp"
+            android:text="@string/informacao"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInfPage"
+            app:layout_constraintVertical_bias="0.085" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
